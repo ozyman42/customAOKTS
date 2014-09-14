@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Util">
+      <UniqueIdentifier>{950c3e98-8d5f-48e3-b600-5b7aa8db08c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{c6c4e7ba-4505-47d0-8580-571e0ee30a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util\Buffer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\MemBuffer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\NullBuffer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\utilio.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="view\utilui.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\winugly.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\zlibfile.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="model\ChangePlayerVisitor.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\Condition.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\datatypes.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\ECBase.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\Effect.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\esdata.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\Player.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\scen.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\scen_const.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\trigger.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\TriggerVisitor.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\TrigXmlReader.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\TrigXmlVisitor.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\Unit.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="view\ecedit.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="view\editors.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="view\LCombo.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="view\LinkListBox.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="view\mapview.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="util\settings.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="view\treeutil.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="view\utilunit.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Alex%27s AoKTS\custscript.h">
+      <Filter>View</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="util\MemBuffer.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\NullBuffer.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\utilio.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="view\utilui.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\zlibfile.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="model\ChangePlayerVisitor.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\Condition.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\datatypes.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\ECBase.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\Effect.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\esdata.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\Player.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\scen.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\scen_const.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\trigger.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\TrigXmlReader.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\TrigXmlVisitor.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\Unit.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="view\aokts.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="view\ecedit.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="view\editors.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="view\LCombo.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="view\LinkListBox.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="view\mapview.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="util\settings.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="view\treeutil.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="view\trigedit.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="view\unitedit.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="view\utilunit.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Alex%27s AoKTS\custscript.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AOKTS.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="common.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="swgbts.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\aokts_big.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\evil.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\good.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="scx_format.txt" />
+  </ItemGroup>
+</Project>

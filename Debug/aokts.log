@@ -1,0 +1,80 @@
+﻿Build started 7/8/2014 9:06:01 PM.
+     1>Project "C:\Users\AlexLeung\Desktop\aokts-1.0.1\Alex's AoKTS\aokts.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\AlexLeung\Desktop\aokts-1.0.1\Alex's AoKTS\deps\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _WIN32_WINNT=0x0500 /D _WIN32_IE=0x500 /D _CRT_SECURE_NO_DEPRECATE /D GAME=1 /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Alex's AoKTS\custscript.cpp" util\MemBuffer.cpp util\NullBuffer.cpp util\utilio.cpp view\utilui.cpp util\zlibfile.cpp model\ChangePlayerVisitor.cpp model\Condition.cpp model\datatypes.cpp model\ECBase.cpp model\Effect.cpp model\esdata.cpp model\Player.cpp model\scen.cpp model\scen_const.cpp model\trigger.cpp model\TrigXmlReader.cpp model\TrigXmlVisitor.cpp model\Unit.cpp view\aokts.cpp view\ecedit.cpp view\editors.cpp view\LCombo.cpp view\LinkListBox.cpp view\mapview.cpp util\settings.cpp view\treeutil.cpp view\trigedit.cpp view\unitedit.cpp view\utilunit.cpp
+         custscript.cpp
+         MemBuffer.cpp
+         NullBuffer.cpp
+         utilio.cpp
+         utilui.cpp
+         zlibfile.cpp
+         ChangePlayerVisitor.cpp
+         Condition.cpp
+         datatypes.cpp
+         ECBase.cpp
+         Effect.cpp
+         esdata.cpp
+         Player.cpp
+         scen.cpp
+         scen_const.cpp
+         trigger.cpp
+         TrigXmlReader.cpp
+         TrigXmlVisitor.cpp
+         Unit.cpp
+         aokts.cpp
+         Generating Code...
+         Compiling...
+         ecedit.cpp
+         editors.cpp
+         LCombo.cpp
+         LinkListBox.cpp
+         mapview.cpp
+         settings.cpp
+         treeutil.cpp
+         trigedit.cpp
+         unitedit.cpp
+         utilunit.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\AOKTS.res" AOKTS.rc 
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\common.res" common.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\aokts.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\AlexLeung\Desktop\aokts-1.0.1\Alex's AoKTS\deps\lib" zlib1.lib comctl32.lib libexpatw.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\aokts.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\aokts.lib" /MACHINE:X86 /SAFESEH Debug\AOKTS.res
+         Debug\common.res
+         Debug\custscript.obj
+         Debug\MemBuffer.obj
+         Debug\NullBuffer.obj
+         Debug\utilio.obj
+         Debug\utilui.obj
+         Debug\zlibfile.obj
+         Debug\ChangePlayerVisitor.obj
+         Debug\Condition.obj
+         Debug\datatypes.obj
+         Debug\ECBase.obj
+         Debug\Effect.obj
+         Debug\esdata.obj
+         Debug\Player.obj
+         Debug\scen.obj
+         Debug\scen_const.obj
+         Debug\trigger.obj
+         Debug\TrigXmlReader.obj
+         Debug\TrigXmlVisitor.obj
+         Debug\Unit.obj
+         Debug\aokts.obj
+         Debug\ecedit.obj
+         Debug\editors.obj
+         Debug\LCombo.obj
+         Debug\LinkListBox.obj
+         Debug\mapview.obj
+         Debug\settings.obj
+         Debug\treeutil.obj
+         Debug\trigedit.obj
+         Debug\unitedit.obj
+         Debug\utilunit.obj
+     1>custscript.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         aokts.vcxproj -> C:\Users\AlexLeung\Desktop\aokts-1.0.1\Alex's AoKTS\.\aokts.exe
+     1>Done Building Project "C:\Users\AlexLeung\Desktop\aokts-1.0.1\Alex's AoKTS\aokts.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:55.95
