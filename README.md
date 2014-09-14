@@ -1,3 +1,11 @@
+This project is an addition to DiGiT's work on a project called AOKTS, or Age of Kings Trigger Studio, 
+which allows Age of Empires II players to edit custom scenarios they make
+at a much faster pace than if they were to edit with the default scenario editor
+that is built in to the game. I figured that by making his code compilable
+in a modern tool, people could use the awesome power of C++ to edit custom scenarios
+at a lightning speed. If you are unfamiliar with DiGiT's original work, and are a fan of
+Age of Empires II, visit here: http://aok.heavengames.com/blacksmith/showfile.php?fileid=5858
+
 This is a note by Alex Leung on creating custom scripts for DiGiT's AoKTS.
 I TAKE NO CREDIT FOR DiGiT's work.
 
